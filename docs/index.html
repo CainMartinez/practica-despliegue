@@ -3,9 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentación</title>
+    <title>Documentación de Git y Git Flow</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>Documentación</h1>
+    <h1 align="center">Documentación de Git y Git Flow</h1>
+
+    <section>
+        <h2>¿Qué es Git?</h2>
+        <p>Git es un sistema de control de versiones distribuido que permite a los desarrolladores rastrear cambios en el código fuente durante el desarrollo de software. Fue creado por Linus Torvalds en 2005.</p>
+    </section>
+
+    <section>
+        <h2>¿Qué es Git Flow?</h2>
+        <p>Git Flow es un flujo de trabajo de ramificación para Git, propuesto por Vincent Driessen. Proporciona una estructura robusta para gestionar las ramas en un proyecto de desarrollo de software, facilitando la colaboración y el mantenimiento del código.</p>
+    </section>
+
+    <section>
+        <h2>¿Por qué utilizamos Git y Git Flow en el desarrollo?</h2>
+        <p>Porque Git y Git Flow mejora la colaboración entre los desarrolladores, mantiene un historial claro de los cambios en el código y facilita la gestión de versiones y lanzamientos de software.</p>
+    </section>
+
+    <section>
+        <h2>Descripción paso a paso del proyecto</h2>
+        <div>
+            <h3>Paso 1</h3>
+            <img src="images/Imagen1.png" alt="Descripción de la imagen 1">
+            <p>Inicializamos el repositorio con git init, creamos el README.md y .gitignore del proyecto con touch, hacemos un git add y el primer commit para despues conectarnos al repositorio creado previamente en GitHub y finalizar el push en la rama main.</p>
+        </div>
+        <div>
+            <h3>Paso 2</h3>
+            <img src="images/Imagen2.png" alt="Descripción de la imagen 2">
+            <p>Inicializamos el repositorio Git para usar el flujo de trabajo Git Flow.</p>
+        </div>
+        <div>
+            <h3>Paso 3</h3>
+            <img src="images/Imagen3.png" alt="Descripción de la imagen 3">
+            <p>Iniciamos la feature estructura_inicial y creamos el index.html con touch.</p>
+        </div>
+        <div>
+            <h3>Paso 4</h3>
+            <img src="images/Imagen4.png" alt="Descripción de la imagen 4">
+            <p>Git add y commit desde el usuari 1 para luego cerrar la feature estructura_inicial.</p>
+        </div>
+        <div>
+            <h3>Paso 5</h3>
+            <img src="images/Imagen5.png" alt="Descripción de la imagen 5">
+            <p>Hacemos un push a develop para actualizar los cambios.</p>
+        </div>
+        <div>
+            <h3>Paso 6</h3>
+            <img src="images/Imagen6.png" alt="Descripción de la imagen 6">
+            <p>Iniciamos la feature modificar_atributos, el usuario 2 modifica el html, lo añade y comitea.</p>
+        </div>
+        <div>
+            <h3>Paso 7</h3>
+            <img src="images/Imagen7.png" alt="Descripción de la imagen 7">
+            <p>Finalizamos la feature modificar_atributos y hacemos un push a la rama develop.</p>
+        </div>
+        <div>
+            <h3>Paso 8</h3>
+            <img src="images/Imagen8.png" alt="Descripción de la imagen 8">
+            <p>Iniciamos la feature modificar_contenido, el usuario 2 modifica el htlm, git add y commit antes de cerrarla.</p>
+        </div>
+        <div>
+            <h3>Paso 9</h3>
+            <img src="images/Imagen9.png" alt="Descripción de la imagen 9">
+            <p>Actualizamos los cambios con un push a la rama develop.</p>
+        </div>
+        <div>
+            <h3>Paso 10</h3>
+            <img src="images/Imagen10.png" alt="Descripción de la imagen 10">
+            <p>Iniciamos la feature estilos-css, modificamos los estilos del html con el usuario 3, hacemos un git add y antes de cerrar la feature un commit, al terminar subimos los cambios a develop con un push.</p>
+        </div>
+                <div>
+            <h3>Paso 11</h3>
+            <img src="images/Imagen11.png" alt="Descripción de la imagen 11">
+            <p>Iniciamos la release v1.0.</p>
+        </div>
+        <div>
+            <h3>Paso 12</h3>
+            <img src="images/Imagen12.png" alt="Descripción de la imagen 12">
+            <p>Terminamos la release v1.0.</p>
+        </div>
+        <div>
+            <h3>Paso 13</h3>
+            <img src="images/Imagen13.png" alt="Descripción de la imagen 13">
+            <p>Actualizamos con push la rama main y develop.</p>
+        </div>
+        <div>
+            <h3>Paso 14</h3>
+            <img src="images/Imagen14.png" alt="Descripción de la imagen 14">
+            <p>Iniciamos el hotfix, una vez arreglado el error continuamos con git add, comiteamos y cerramos el hotfix.</p>
+        </div>
+        <div>
+            <h3>Paso 15</h3>
+            <img src="images/Imagen15.png" alt="Descripción de la imagen 15">
+            <p>Hacemos un git push a main.</p>
+        </div>
+        <div>
+            <h3>Último paso</h3>
+            <img src="images/Imagen16.png" alt="Descripción de la imagen 16">
+            <p>Terminamos con un git push a la rama develop.</p>
+        </div>
+    </section>
 </body>
 </html>
