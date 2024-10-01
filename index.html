@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos de JavaScript</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Cursos de JavaScript Interactivo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Descripción del Curso</h2>
+            <p>Este curso te enseña a interactuar con HTML usando JavaScript.</p>
+        </section>
+        <article>
+            <h2>Modificar contenido HTML</h2>
+            <button onclick="document.getElementById('demo').innerHTML = '¡Hola, Mundo!';">
+                Cambiar contenido
+            </button>
+            <p id="demo">Este es un texto que será modificado.</p>
+        </article>
+        
+        <article>
+            <h2>Modificar atributos HTML</h2>
+            <button onclick="document.getElementById('myImage').src = 'https://via.placeholder.com/150';">
+                Cambiar imagen
+            </button>
+            <img id="myImage" src="https://via.placeholder.com/100" alt="Placeholder">
+        </article>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 - Curso de JavaScript</p>
+    </footer>
+</body>
+</html>
